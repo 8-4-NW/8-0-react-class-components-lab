@@ -1,3 +1,4 @@
+// import interpolated Component
 import { Component } from "react";
 import React from "react";
 import "./App.css";
