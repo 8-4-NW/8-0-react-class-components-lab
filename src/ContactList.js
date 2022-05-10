@@ -16,10 +16,12 @@ import "./ContactList.css";
 //   );
 // };
 
+// // REFRACTOR - class - constructor(){ - super()
 class ContactList extends  Component {
   constructor() {
     super();
   }
+  //   // REFRACTOR - render(){}
   render(){
     return (
       <div className="ContactList" data-testid="contact-list">

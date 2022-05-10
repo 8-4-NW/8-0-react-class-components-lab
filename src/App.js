@@ -14,10 +14,13 @@ import Feed from "./Feed";
 //   );
 // }
 
+
+// REFRACTOR - class - constructor(){ - super()
 class App extends Component {
   constructor() {
     super();
   }
+    // REFRACTOR - render(){}
   render()  {
     return (
       <div className="App-Div">

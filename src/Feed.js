@@ -18,10 +18,12 @@ import "./Feed.css";
 //   );
 // };
 
+// REFRACTOR - class - constructor(){ - super()
 class Feed extends Component {
   constructor() {
     super();
   }
+  //   // REFRACTOR - render(){}
   render() {
     return (
       <div className="Feed" data-testid="feed">

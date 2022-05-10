@@ -28,12 +28,15 @@ export const adInfo = [
 //   );
 // };
 
+
+// REFRACTOR - class - constructor(){ - super()
 class Ad extends Component {
   constructor() {
     super();
     this.index = Math.floor(Math.random() * adInfo.length);
     this.ad = adInfo[this.index];
   }
+  // REFRACTOR - render(){}
   render() {
     return (
       <div className="Ad" data-testid="ad">
